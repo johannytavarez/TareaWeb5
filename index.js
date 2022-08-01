@@ -45,7 +45,6 @@ app.get('/Listar', (request, response) => {
     response.send(respuesta)
 });
 
-app.listen(8080, () => {
-    console.log("El servidor está escuchando en el puerto 8080")
-})
+console.log("El servidor está escuchando en el puerto 8080")
+app.listen(8080)
 
